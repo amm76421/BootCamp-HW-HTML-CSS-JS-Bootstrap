@@ -4,24 +4,113 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Materialize CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    
 
-    <title>Hello, world!</title>
+    <title>Ai's Portfolio</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <div class="row">
+        <span class="border border-danger">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <h1><a class="navbar-brand text-danger" href="#">Home</a> </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="Dropdown" aria-expanded="false">
+                My Works
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">Contact Me</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </span>
+    <div class="mt-4 bg-$white text-danger rounded-pill border border-danger">
+    <div class="jumbotron">
+            <img src="" alt="">
+           
+      <h1>Ai Mendoza</h1>
+      <p>Hello, my name is Ai Michelle Mendoza, and welcome to my portfolio! I'm a soon to be University of Arizona UI/UX bootcamp graduate. I have learned a great deal in this program, as it has developed my skills to further engage users on websites and to make the experience enjoyable. Toward the end of the program, we started learning HTML, CSS, and JS, along with implementing frameworks such as Bootstrap. I'm excited to start my new path of UI/UX and appreciate that there is still much more for me to learn and master.</p>
+    </div>
+  </div>
+  </div>
+  <div class="spacing"></div>
+    <!-- Card 1 with pic -->
+    <div class="card-group">
+    <div class="card border-danger" style="width: 18rem;">
+      <img class="card-img-top" src="./Portfolio Image 1.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Government Page Redesign</h5>
+        <p class="card-text">This is a Case staudy where I redesign USDA government page. One thing I focused on this project was to make less confusing and frustrate to navigate and keep the color theme simple.</p>
+        <a href="#" class="btn btn-danger">Learn More</a>
+      </div>
+    </div>
+  <!-- Card 2 with pic -->
+  <div class="card border-danger" style="width: 18rem;">
+    <img class="card-img-top" src="./Portfolio Image 2 .jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Non-profit Organization Redesign</h5>
+      <p class="card-text">This project is a group project that I participate. I cantributed to the usability of the website and solving the pain points for the users. Also keep the colors and logo not too different from the original so the users will not get confused.</p>
+      <a href="#" class="btn btn-danger">Learn More</a>
+    </div>
+  </div>
+  <!-- Card 3 with pic -->
+  <div class="card border-danger" style="width: 18rem;">
+    <img class="card-img-top" src="./Portfolio Image 3.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Mobile App Design</h5>
+      <p class="card-text">This is an App design for post-pandemic travel App. I focused on how the people are traveling different and how hard it is to cordintae. I learned that people are looking at entry requirements and vaccine mandates first before planning  for any activities.</p>
+      <a href="#" class="btn btn-danger">Learn More</a>
+    </div>
+  </div>
+  
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Materialize JS cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./index.js"></script>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <div class="footer">
+      <div class="email"> <i class="material-icons">email</i><a href="mailto: amm76421@gmailcom">amm76421@gmail.com</a></div>
+      <div class="phone"><i class="material-icons">phone</i> 928-366-7453</div>
+  </div>
   </body>
 </html>

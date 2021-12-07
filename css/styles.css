@@ -1,0 +1,43 @@
+.phone {
+   color:red;
+   display: flex;
+   justify-content: center;
+}
+
+.email{
+    color: red;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin: 0px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border: 2px solid red;
+    margin-top: 2%;
+}
+
+.card-groups {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 0%;
+}
+
+.jumbotron {
+    font-size: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.spacing{
+    margin: 2%;
+}
+
+
